@@ -329,4 +329,80 @@ header .button .button2{
       line-height: 18px;
     
     }
+    .employee-info{
+        background-color: #E5E5E5;
+        max-width: 100%;
+    }
+    .employee-info h2{
+        font-family: PT Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 8px;
+        line-height: 10px;
+        color: #000000;
+        padding: 10px;
+        margin-left: 130px;
+    }
+    .employee-info .flex-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .employee-info .flex-container .flex-03 , .flex-04{
+        display: none;
+    }
+    
+    .employee-info .flex-container > div {
+    background-color: #EEF7FB;
+    margin: 5px;
+    padding: 5px;
+    font-size: 9px;
+  }
+  .employee-info .flex-container > div > p , .background{
+      display: none;
+  }
+  .employee-info .flex-container > div > figure {
+    max-height: 100px;
+    max-width: 100px;
+    overflow: hidden;
+    position: relative;
+    margin-inline-start: .5rem;
+    margin-inline-end: .5rem;
+  }
+  .employee-info .flex-container > div > figure > img{
+      border-radius: 50%;
+  }
+  .employee-info h3{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 12px;
+    color: #000000;
+    margin-left: 35px;
+    padding-top: 5px;
+  }
+  .employee-info .flex-container .link a{
+      text-decoration: none;
+      
+  }
+  .employee-info .flex-container .link{
+    background: #175288;
+    border-radius: 30px;
+    height: 40px;
+    width: 90px;
+    margin-right: 10px;
+    margin-top: 40px;
+  }
+  .employee-info .flex-container .link a p{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 5px;
+    
+  }
+
     
