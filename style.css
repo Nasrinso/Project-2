@@ -201,6 +201,7 @@ header .button .button2{
     }
     .hero{
         background-image: url(./img/hero.mobile.jpg);
+        background-repeat: no-repeat;
         height: 139px;
         width: 100%;
     }
@@ -327,6 +328,7 @@ header .button .button2{
       margin-left: 140px;
       padding-top: 5px;
       line-height: 18px;
+      margin-bottom: 10px;
     
     }
     .employee-info{
@@ -404,5 +406,42 @@ header .button .button2{
     padding-top: 5px;
     
   }
+footer{
+    background-color: #175288;
+    width: 375px;
+    height:150px ;
+}
+  footer h2{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px; 
+    color: #FFFFFF;
+    padding-top: 20px;
 
+  }
+
+  footer p{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-right: 60px;
+  }
+
+ footer .footer-logo{
+     float: left;
+     margin-left: 20px;
+     margin-top: 20px;
+ }
+
+ footer .address{
+     float: right;
+ }
+  
     
